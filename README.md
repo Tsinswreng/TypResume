@@ -1,4 +1,4 @@
-# Chinese Resumé in Typst \| 基于Typst語言的中文個人簡歷
+# Chinese Résumé in Typst \| 基于Typst語言的中文個人簡歷
 
 構建
 
