@@ -2,6 +2,8 @@
 
 # 構建
 
+我的typst版本: `typst 0.13.1 (8ace67d9)`
+
 ``` bash
 cd Main
 typst compile Main.typ
@@ -35,3 +37,38 @@ Main.typ # 主文檔
 # 將此簡歷作爲模板使用
 
 直接按需改Main.typ和InfoReal.typ裏的內容即可
+
+# 多版本編譯
+
+針對不同崗位、此簡歷中有 C#, Java,
+Mix三種版本。構建時需通過Cfg.typ配置版本
+
+Cfg.typ:
+
+``` typst
+#import "CfgItems.typ":* // 引用配置標誌
+
+#let IsShowAvatar = true // 是否顯示頭像
+#let IsReal = true // 是否使用真實信息
+#let Tendency = TendCSharp // 選擇簡歷版本
+#let Mode = ModeRelease // 發佈模式
+```
+
+正文中涉及條件編譯之處 舉例:
+
+``` typst
+#if Tendency == TendMix{
+    MixSkill
+}else if Tendency == TendCSharp{
+    CSharpSkill
+}else if Tendency == TendJava{
+    JavaSkill
+}else{
+    [=== Mix]
+    MixSkill
+    [=== CSharp]
+    CSharpSkill
+    [=== Java]
+    JavaSkill
+}
+```
