@@ -3,7 +3,7 @@ pandoc README.typ -o README.md
  */
 = Chinese Résumé in Typst | 基于Typst語言的中文個人簡歷
 
-構建
+= 構建
 ```bash
 cd Main
 typst compile Main.typ
@@ -32,3 +32,8 @@ InfoKeys.typ # 個人信息字典鍵
 InfoReal.typ # 真信息
 Main.typ # 主文檔
 ```
+
+
+= 將此簡歷作爲模板使用
+
+直接按需改Main.typ和InfoReal.typ裏的內容
