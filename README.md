@@ -34,4 +34,4 @@ Main.typ # 主文檔
 
 # 將此簡歷作爲模板使用
 
-直接按需改Main.typ和InfoReal.typ裏的內容
+直接按需改Main.typ和InfoReal.typ裏的內容即可
