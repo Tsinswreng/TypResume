@@ -3,7 +3,7 @@ pandoc README.typ -o README.md
  */
 = Chinese Résumé in Typst | 基于Typst語言的中文個人簡歷
 
-Typst 用于排版的可編程標記語言、擁有變量, 函數與包管理等現代編程語言的特性、注重于科學寫作。定位與 LaTeX 相似。支持編譯爲PDF。
+Typst 是用于排版的 可編程 標記語言、擁有變量, 函數與包管理等 現代編程語言的特性、注重于科學寫作。定位與 LaTeX 相似。支持編譯爲PDF。
 
 此項目是本人的簡歷、使用Typst語言撰寫。
 
