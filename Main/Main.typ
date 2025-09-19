@@ -63,6 +63,7 @@
 		,[#B[出生]: #Birth]
 		,[#B[電話]: #Phone]
 		,[#B[郵箱]: #Email]
+		,[#Micro[籍貫: 廣西 梧州 蒙山縣]]
 	)
 ]
 
@@ -372,8 +373,9 @@
 		[跨平臺單詞記憶App],[],[#align(right)[#Micro[2025.5\~2025.7]]]
 	)
 	== #box[#CsNgaq]
+	
 
-	#I[項目地址 `https://github.com/Tsinswreng/CsNgaq`]
+	#I[項目地址 `https://github.com/Tsinswreng/CsNgaq`]#Micro[項目職責: 獨立開發]
 
 	#I[技術棧: 後端: C\#, Asp.net, EFCore, PostgreSql, Docker, Redis; 客戶端: Avalonia, Sqlite]
 
@@ -395,8 +397,8 @@
 		[Rime輸入法引擎的Lua擴展腳本],[],[#align(right)[#Micro[2024.1\~2024.5]]]
 	)
 	== #box[#RimeLua]
-
-	#I[技術棧: TypeScript, C\#, Lua]
+	
+	#I[技術棧: TypeScript, C\#, Lua] #Micro[項目職責: 獨立開發]
 	#InLineSpace
 	
 	#I[項目地址: `https://github.com/Tsinswreng/rime-TswG` (12 Stars#emoji.star)]
