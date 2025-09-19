@@ -19,7 +19,7 @@
 //加粗旹 把描邊顏色設成和原本ʹ色 一致
 #let FnBaseStroke(doc, ..params)={
 	context{
-		if(text.stroke == none){
+		if(text.stroke == none){ //只針對未設置過stroke的文字、降低優先級 防止覆蓋
 			set text(
 				stroke: BaseStroke+text.fill//加粗旹 把描邊顏色設成和原本ʹ色 一致
 			)
