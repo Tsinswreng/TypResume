@@ -71,7 +71,7 @@
 	//正文同色加粗
 	show text.where(): it=>FnBaseStroke(it) //誌斯寫法、勿用show: FnBaseStroke
 	//全局字體縮小
-	set text(0.98em)
+	set text(1em)
 	//正文漢字字體: 華文宋
 	set text(font: ("", "STSong"))
 	//頁邊距

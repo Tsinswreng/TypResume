@@ -110,7 +110,7 @@
 		#Diff(Tag: TendCSharp)[#I[掌握Java, C\#, TS, JS, Python, Lua, C等編程語言; 掌握基礎數據結構與算法]]
 		//瞭解各語言新特性; 瞭解C/C++, Cmake, RAII等
 		
-		#I[精通面向對象編程, 掌握SOLID原則及常用設計模式; 熟悉MVC架構; 了解領域驅動設計(DDD)架構]
+		#I[精通面向對象編程, 掌握SOLID原則及常用設計模式; 了解領域驅動設計(DDD)架構]
 
 		#Diff[#I[熟悉Springboot, ASP.NET, Express.js等後端技術]]
 		#InLineSpace #I[瞭解HTML, CSS, Vue3, 等Web前端技術]
@@ -145,7 +145,7 @@
 		
 		#Add[#I[掌握 異步, Linq, 源生成器, AOT編譯, unsafe編程, P/Invoke跨語言調用等高級特性]]
 		
-		#I[精通面向對象編程, 掌握SOLID原則及常用設計模式; 熟悉MVC架構; 了解領域驅動設計(DDD)架構]
+		#I[精通面向對象編程, 掌握SOLID原則及常用設計模式; 了解領域驅動設計(DDD)架構]
 
 		#Diff[#I[熟悉ASP.NET, Springboot, Express.js等後端技術]]
 		#InLineSpace #I[瞭解HTML, CSS, Vue3, 等Web前端技術]
@@ -182,7 +182,7 @@
 		//#Add[#I[熟悉JVM内存模型, GC機制, 類加載機制; 熟悉Maven]]
 		#Add[#I[掌握Java 集合, Stream API, 反射, 資源管理, 多線程, Maven等; 瞭解record, 模式匹配等新特性]]
 		
-		#Diff(Tag: TendJava)[#I[精通面向對象編程, 掌握SOLID原則及常用設計模式; 熟悉MVC, MVVM架構; 了解領域驅動設計(DDD)架構]]
+		#Diff(Tag: TendJava)[#I[精通面向對象編程, 掌握SOLID原則及常用設計模式; 熟悉MVVM架構; 了解領域驅動設計(DDD)架構]]
 
 		#Diff(Tag: TendJava)[#I[熟悉Springboot, 掌握依賴注入, 日誌, 鑑權等技術]]
 		#InLineSpace #I[瞭解HTML, CSS, Vue3, 等Web前端技術]
