@@ -1,5 +1,6 @@
 /* 
 pandoc README.typ -o README.md
+https://github.com/Tsinswreng/TypResume/blob/master/assets/2025-09-17-13-20-30.png
  */
 #set page(margin: 0.7cm)
 = Chinese Résumé in Typst | 基于Typst語言的中文個人簡歷
@@ -35,7 +36,6 @@ cd Main
 typst compile Main.typ
 ```
 
-(源碼中個人習慣皆用繁體中文。可結合Opencc命令行工具在構建時輸出簡體中文、此項目未提供。)
 
 
 

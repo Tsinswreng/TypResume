@@ -227,7 +227,7 @@
   gutter: 0.5em,          // 列间距
   //[- 大學英語四級(CET4): 575分],[2023年]
 	[#I[大學英語六級(CET6)]],[553/710(分)],[2023年]
-  ,[#I[學習優秀獎學金]],[二等獎],[大二]
+  ,[#I[學習優秀獎學金]],[二等獎],[大二, 大三]
 	,[#I[日語能力測試(JLPT) N2]],[162/180(分)],[2025年]
 	//,[- 機動車駕駛證(C1)],[2022年]
 )#SMain
@@ -381,7 +381,7 @@
 
 	#I[客戶端使用自己開發的SqlHelper作爲ORM, 支持Windows, Linux, Android平臺, 兼容AOT編譯]
 
-	#I[服務端使用docker compose管理依賴, 支持容器化部署]
+	#I[服務端使用Docker compose管理依賴, 支持容器化部署; 使用Redis實現防抖]
 
 	#I[設計了一套單詞表標記語言及解析器, 方便用戶在純文本中記錄單詞, 并從中解析單詞對象以批量導入數據庫]
 	// #I[設計了單詞表詞法解析器, ]
@@ -397,11 +397,10 @@
 		[Rime輸入法引擎的Lua擴展腳本],[],[#align(right)[#Micro[2024.1\~2024.5]]]
 	)
 	== #box[#RimeLua]
-	
-	#I[技術棧: TypeScript, C\#, Lua] #Micro[項目職責: 獨立開發]
-	#InLineSpace
-	
 	#I[項目地址: `https://github.com/Tsinswreng/rime-TswG` (12 Stars#emoji.star)]
+	#InLineSpace
+	#I[技術棧: TypeScript, C\#, Lua] #Micro[項目職責: 獨立開發]
+	
 	//#I[為Rime輸入法引擎編寫Lua擴展, 最初使用純Lua編寫, 後改用TypeScript編寫並使用TsToLua工具編譯為Lua。]
 
 	#I[使用C++/C\#調用Win32剪貼板API與Lua API, 採用AOT編譯, 將函數導出到動態庫中供Lua調用]
